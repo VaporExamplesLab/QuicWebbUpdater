@@ -1,5 +1,5 @@
-# [quickstart-bootstrap-blog-updater][t]
-[t]:https://github.com/VaporExamplesLab/quickstart-bootstrap-blog-updater
+# [QuicWebbUpdater][t]
+[t]:https://github.com/VaporExamplesLab/QuicWebbUpdater
 
 <p align="center">
     <a href="http://docs.vapor.codes/3.0/">
@@ -35,11 +35,11 @@ Steps to download repository:
 cd <your-choosen-directory-path>
 
 ## download and unzip
-wget https://github.com/VaporExamplesLab/quickstart-bootstrap-blog-updater/archive/master.zip
-unzip master.zip -d quickstart-bootstrap-blog-updater
+wget https://github.com/VaporExamplesLab/QuicWebbUpdater/archive/master.zip
+unzip master.zip -d QuicWebbUpdater
 rm master.zip     # remove download
 
-cd quickstart-bootstrap-blog-updater-master
+cd QuicWebbUpdater-master
 
 # update dependencies 
 # with `-y` yes to generate and open Xcode project
@@ -54,9 +54,9 @@ cd <your-choosen-directory-path>
 
 ## either clone
 ##    add --bare option for an unattached instance
-git clone git@github.com:VaporExamplesLab/quickstart-bootstrap-blog-updater.git 
+git clone git@github.com:VaporExamplesLab/QuicWebbUpdater.git 
 
-cd quickstart-bootstrap-blog-updater
+cd QuicWebbUpdater
 
 # update dependencies 
 # with `-y` yes to generate and open Xcode project
@@ -79,15 +79,15 @@ Click the run button and check the results in a browser at `http://localhost:808
 
 ## Original Setup <span id="OriginalSetup">[▴](#toc)</span>
 
-The following steps were completed to create the `quickstart-bootstrap-blog-updater` example. 
+The following steps were completed to create the `QuicWebbUpdater` example. 
 
 
 ``` bash
-mkdir quickstart-bootstrap-blog-updater
-cd quickstart-bootstrap-blog-updater
+mkdir QuicWebbUpdater
+cd QuicWebbUpdater
 swift package init --type executable
 swift package generate-xcodeproj
-open quickstart-bootstrap-blog-updater.xcodeproj/
+open QuicWebbUpdater.xcodeproj/
 ```
 
 Setting "upload" creation dates 
